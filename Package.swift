@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "CodableAlamofire", targets: ["CodableAlamofire"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire", from: "5.6.2")
+        .package(url: "https://github.com/Alamofire/Alamofire", from: "5.2.0")
     ],
     targets: [
     	.target(
